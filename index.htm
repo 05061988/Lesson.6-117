@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Lesson 6</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <header class="header-wraper">
+    	<a class="logo" href="#">LOGO</a>
+
+    	<nav class="navigation">
+    		<ul>
+    			<li class="nav-li"><a href="#"></a>Home</li>
+    			<li class="nav-li"><a href="#"></a>News</li>
+    			<li class="nav-li"><a href="#"></a>Contact</li>
+
+    				
+    		</ul>
+    	</nav>
+    </header>
+    <section class="section-news">
+    	<p>ლორემ იპსუმ ჩაუმალა დასრესა ორპირო ულბობდა რომანსი გაგაკოტრებ, გაშენებული ფილმებშიო მოფიქრებულ მცირე მეგრელს გირეკავენ ბრინკა მოფარფატე პაოლო. ვარსკვლავი მკითხავი გაფითრდა მოადგილე გამოუშვას მოფიქრებულ, ადამიანებიც გინდ სარეცხი. გავარდნილი უნივერსიტეტის კინოსადმი ბრინკა შევცდით ორპირო დაკავებული, რეზინის დასჩემდა მოადგილე თავისიანებს. მკითხავი ძნით სდუმდა დასჩემდა, მეგრელს დასრესა ურემსაო ადამიანებიც. ნეკრასოვმა იყარა ანტენას მოფარფატე გადასარევი, ადამიანებიც გინდ დაჭკნეს, ნდობით პროპორციაზე. აზიაროს წარბს ცათასა ფილმებშიო ბახის ვარსკვლავი უფლსწულს დამვიწყებოდა. ანტენას წარმოუჩინოს ულბობდა, განათლებასაც ორმოცფუტიან, გადაგიხდის საქციელსაც რეზინის იყარა.</p>
+    	<!--position absolute & relative -->
+    	<div class="wraper-box">
+    		<div class="child-box">
+    			<p class="text-box">test</p>
+    		</div>
+    		<div class="child-box2"></div>
+    	</div>
+        <div class="container-box">
+        	<div class="wraper-childbox"></div>
+        	
+        </div> 
+    	<!--position fixed - chat icon -->
+    	<div class="chat-icon">
+    		<img class="image-chat" src="data:image/png;base64,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" alt="chat-icon">
+    		
+    	</div>   
+
+    	<!--Image example-->
+    	<div class="image-wraper"> 
+
+          <img class="image" src="https://www.pursuit-of-happiness.org/wp-content/uploads/happy-family.jpg" alt="">
+          <p class="text-image">Text image</p>
+        </div>
+    </section>  
+</body>
+
+</html>        
